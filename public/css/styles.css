@@ -3,6 +3,13 @@ body {
     padding: 20px;
 }
 
+/* Responsive body padding */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+}
+
 .list-group-item {
     margin-bottom: 10px;
     border-radius: 5px;
@@ -14,3 +21,26 @@ body {
     transition: transform 0.2s ease;
 }
 
+/* Responsive table styles */
+@media (max-width: 768px) {
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .d-flex {
+        flex-direction: column;
+    }
+    
+    .d-flex > * {
+        margin-bottom: 10px;
+    }
+}
