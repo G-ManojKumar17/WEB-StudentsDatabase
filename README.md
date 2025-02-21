@@ -1,7 +1,7 @@
 # **Backend Project | WEB APPLICATION**
 This is a **backend-driven web application** built using **Node.js, Express, MongoDB, and EJS**. The project showcases my ability to develop a **full-fledged backend system**, including **routing, database management, authentication, and templating**. It follows the **MVC architecture**, ensuring modularity and maintainability.
 <br>
-https://web-studentsdatabase.onrender.com
+https://web-studentsdatabase.onrender.com (=> The application is live, but loading may take some time due to the free-tier hosting. Please wait.)
 
 ---
 
