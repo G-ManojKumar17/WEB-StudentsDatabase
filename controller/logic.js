@@ -85,7 +85,7 @@ const login = async (req, res) => {
     try {
         const data = req.body;
         console.log("hi");
-        console.log("UserID Received Data: ", data);
+        // console.log("UserID Received Data: ", data);
 
         const check = await schema.userID.find({ username: data.username });
 
